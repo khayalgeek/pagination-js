@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.pagination {
+    margin-top: 12px;
+}
+
+.pagination,
+.pagination>ul {
+    padding: 0;
+    display: flex;
+    margin-bottom: 0;
+}
+
+.pagination ul li,
+#left-next-btn,
+#right-next-btn {
+
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: white;
+    margin-right: 5px;
+    border-radius: 2.5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.paging-item-active {
+    color: white !important;
+    background-color: #beac6f !important;
+}
